@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en-NL">
+
+<head>
+<!--- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <!-- Material Icons -->
+ 
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Felix Art Gallery</title>
+</head>
+<body id="home">
+  <!-- Header -->
+  <!-- RESPONSIVE WITH SIDE MENU -->
+  <nav class="teal lighten-2">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Felix Art Gallery</a>
+        <a class="button-collapse" data-activates="mobile-nav" href="#">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a class="active-link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="artists.html">Artists</a>
+          </li>
+          <li>
+            <a href="exhibition.html">Exhibitions</a>
+          </li>
+          <li>
+            <a href="signup.html"> Sign up</a>
+          </li>
+          <!-- DROPDOWN TRIGGER -->
+          <li>
+            <a class="dropdown-button" data-activates="my-dropdown" href="#!">Dropdown
+              <i class="material-icons right">arrow_drop_down</i>
+            </a>
+          </li>
+          <!-- BUTTON LINK -->
+          
+          <li>
+            <a href="#login-modal" class="btn teal modal-trigger">Login</a>
+          </li>
+          <!-- ICON LINK -->
+        </ul>
+        <ul class="side-nav" id="mobile-nav">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#"> Artists</a>
+          </li>
+          <li>
+            <a href="#"> Exhibitions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- DROPDOWN MENU -->
+  <ul id="my-dropdown" class="dropdown-content">
+    <li>
+      <a href="#"> Paintings</a>
+    </li>
+    <li>
+      <a href="#"> Sculptures</a>
+    </li>
+    <li>
+      <a href="#"> Photography</a>
+    </li>
+  </ul>
+   <!-- Section: Slider -->
+   <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="/img/showcase-7.jpg" alt="">
+        <div class="caption left-align">
+          <h2 class="white-text">Discover the magical art of our gallery</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non illo earum cumque id est!</h5>
+          <br><br>
+         <div class="back">
+            <div href="#" class="button_base b05_3d_roll offset-s8">
+                <div>Read more</div>
+                <div>Read more</div>
+             </div>
+           </div>
+        </div>
+      </li>
+      <li>
+        <img src="/img/photo-1566654032194-09ec2c9c5d2f.jpg" alt="">
+        <div class="caption right-align">
+          <h2 class=" white-text">Come to inspire your soul with art</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit.adipisicing elit.</h5>
+          <br><br>
+         <div class="back">
+            <div href="#" class="button_base b05_3d_roll offset-s8">
+                <div>Read more</div>
+                <div>Read more</div>
+             </div>
+           </div>
+        </div>
+      </li>
+      <li>
+        <img src="/img/showcase-6.jpeg " alt="">
+        <div class="caption center-align">
+          <h2 class=" teal-text darken-5-text">Our talented artists are from all over the world</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non illo earum cumque id est!</h5>
+          <br><br>
+         <div class="back">
+            <div href="#" class="button_base b05_3d_roll offset-s8">
+                <div>Read more</div>
+                <div>Read more</div>
+             </div>
+           </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section: Search -->
+  <section id="search" class="section section-search teal lighten-4 black-text center scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h3>Search</h3>
+          <div class="input-field">
+            <input class="white grey-text autocomplete" placeholder="Art, Paintings, Photography etc..." type="text" id="autocomplete-input">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section-workshop grey lighten-5">
+      <div class="row">
+        <div class="col s12 m8 offset-m2">
+          <h3 class="teal-text">Check out our weekly workshops...</h3>
+          <p class="flow-text">Whether you are new to the art world or open to exploring the well known works of art from a new perspective the Art Conversations are designed to give you an unforgettable experience of fine art beyond the usual paths and the usual speed of everyday life.<br><br></p>
+            <div class="row">
+              <div class="col s12 m3">
+                <div class="card">
+                <img src="/img/event-conver.jpg" class="responsive-img" alt="">
+                <span class="price">Felix art conversations.</span>
+              </div>
+              </div>
+              <div class="col s12 m3">
+                <div class="card">
+                <img src="/img/Artist-at-work-1.jpeg"  class=" responsive-img">
+                <span class="price">Tofa Yong, Artist.</span>
+              </div>
+              </div>
+              <div class="col s12 m3">
+                <div class="card">
+                <img src="/img/Artist-at-work-2.jpeg"  class="responsive-img " alt="">
+                <span class="price">Peter Mulder, Artist-Painter.</span>
+              </div>
+            </div>
+            </div>
+              <p class="flow-text">They are your step towards making connections with the fine art on a most personal level. You will slow down, you will disconnect from the daily buzz and you will discover how to truly dive in and enjoy the works of art of your choice.
+            <br><br>
+            Highly personalised, highly professional, unique and exclusively for you on spot tailor made experiences of taking it easy on masterpieces of fine art, MN Art Conversations are created by an art historian, led by an international fine art expert and a highly skilled radio host, dedicated to give you guaranteed the best experience you have ever had standing in front of a piece of the finest world renowned art.<br><br>
+            </p>
+            <h4 class="center">Book today, we are looking forward to meet you!</h4>
+          <br><br>
+          <div class="back">
+            <div class="button_base b05_3d_roll">
+                <div>Tickets</div>
+                <div>Tickets</div>
+             </div>
+          <!--<div class="col s6 offset-s3">
+          <button class="btn waves-effect waves-light button-1" type="submit" name="action">Tickets
+            <i class="material-icons right">send</i>
+          </button>
+          </div>
+        </div>
+      </div>
+      </div>-->
+      <br><br>
+  </section>
+  <!--  Section Cards -->
+  <div class="section section-card-image white">
+    <div class="container">
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="/img/hand-art.jpg">
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-action grey lighten-3">
+          <h5 class="valign">Featured Artists</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="/img/birds-birds.jpeg">
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-action grey lighten-3">
+          <h5 class="valign">Currently on Show</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="/img/paint-waterfall.jpeg">
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-action grey lighten-3">
+          <h5 class="valign">The Art you love</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card grey">
+          <div class="card-content white-text">
+          <span class="card-title teal-text text-lighten-4"><h4>Felix art gallery</h4></span>
+            <p class="flow-text">Invites you to check out the most essential Arts from our collection. Browse these works and enhance your home with one of our iconic masterpieces talents of the past, present, and future. From portraits of women to black and white landscapes, check out the collection of bestsellers that have made our galleries such a success.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Collections</a>
+            <a href="#">Galleries</a>
+          </div>
+        </div>
+      </div>
+     <div class="col s12 m6">
+      <div class="card grey">
+        <div class="card-content white-text">
+          <span class="card-title teal-text text-lighten-4"><h4>Photography</h4></span>
+          <p class="flow-text"> Highlights the favourites from our collection. These photos left their mark on us, whether for their aesthetic qualities or for the stories they tell. Each of these works is representative of the artistic project of one our iconic photographers such as Laurent Baheux, Franck Bohbot or Formento + Formento.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Galleries</a>
+          <a href="#">Photography</a>
+        </div>
+      </div>
+     </div>
+    </div>    
+   </div>
+  </div>
+ </div>
+</div>
+ </section>
+
+
+ <section class="section section-artists grey lighten-4">
+  <div class="container">
+    <div class="row">
+      <h4 class="center">Our most featured artists</h4>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col s12 m2">
+          <div class="card">
+          <img src="/img/Our-artists-A.jpeg" class=" responsive-img" alt="">
+          <h6 class="center"><a href="#!" class=" waves-effect waves-light">Harold hmersma</a></h6>
+        </div>
+        </div>
+        <div class="col s12 m2">
+          <div class="card">
+          <img src="/img/jpegur-artists-9.jpeg" class=" responsive-img " alt="">
+          <h6 class="center">Rawia cutlar</h6>
+        </div>
+      </div>
+        <div class="col s12 m2">
+          <div class="card">
+          <img src="/img/our-artists-8jpeg.jpeg" class=" responsive-img" alt="">
+          <h6 class="center">Sania fitler</h6>
+        </div>
+        </div>
+        <div class="col s12 m2">
+          <div class="card">
+          <img src="/img/our-artists-4.jpeg" class=" responsive-img" alt="">
+          <h6 class="center">Arden kutlu</h6>
+        </div>
+        </div>
+        <div class="col s12 m2">
+          <div class="card">
+          <img src="/img/our-artists-5.jpeg" class=" responsive-img" alt="">
+          <h6 class="center">Riccardo vincilli</h6>
+        </div>
+        </div>
+        <div class="col s12 m2">
+          <div class="card">
+          <img src="/img/our-artists-7.jpeg" class=" responsive-img" alt="">
+          <h6 class="center">Sara van segers</h6>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Testimonials -->
+<section id="testimonials" class="section section-testimonials white white-text center scrollspy">
+  <div class="container">
+    <h2 class="black-text">What Our Clients Say</h2>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card grey lighten-4 black-text z-depth-4">
+          <div class="card-content">
+            <p>
+              <em class="black-text">A big thank you to the whole Singulart team, and of course to your artists! As far as I'm concerned, your customer service is unmatched.</em>
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="col s2 offset-s5"> 
+              <img src="/img/our-artists-5.jpeg" class="circle responsive-img" alt="">
+            <p>John</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card grey lighten-4 black-text z-depth-4">
+          <div class="card-content">
+            <p>
+              <em class="black-text">The work arrived yesterday, in perfect condition - It is magnificent. I was very happy with the product and the service. You have been really helpful throughout the process. </em>
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="col s2 offset-s5"> 
+            <img src="/img/our-artists-5.jpeg" class="circle responsive-img" alt="">
+            <p>Philip</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card grey lighten-4 black-text z-depth-4">
+          <div class="card-content">
+            <p>
+              <em class="black-text">The work exceeded my expectations, I am very excited to buy more pieces with you in the future, thank you. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nulla!</em>
+            </p>
+          </div>
+          <div class="card-action">
+            <div class="col s2 offset-s5"> 
+              <img src="/img/our-artists-5.jpeg" class="circle responsive-img" alt="">
+            <p>Wayne</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+      <div class="col s12 m4">
+        <div class="card grey lighten-4 black-text z-depth-4">
+          <div class="card-content">
+            <p>
+              <em class="black-text">I received the artwork today, on time and in perfect condition. It looks exactly as I imagined. Thank you Singulart for this wonderful artistic discovery.</em>
+            </p>
+          </div>
+          <div class="card-action grey lighten-3">
+            <p>Sharon</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card grey lighten-4 black-text z-depth-4">
+          <div class="card-content">
+            <p>
+              <em class="black-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut modi reprehenderit dolore recusandae, quam voluptatum
+                est deserunt. Quae, quasi beatae!</em>
+            </p>
+          </div>
+          <div class="card-action grey lighten-3">
+            <p>Sharon Johnson From XYZ, INC</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card grey lighten-4 black-text z-depth-4">
+          <div class="card-content">
+            <p>
+              <em class="black-text">he work arrived yesterday, in perfect condition - It is magnificent. I was very happy with the product and the service. You have been really helpful throughout the process. </em>
+            </p>
+          </div>
+          <div class="card-action grey lighten-3">
+            <p>Joost</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <a href="#home" class="right btn-up ripple hide-on-med-and-down"><i class="fas fa-angle-double-up fa-3x" style="color:teal"></i></a>
+</section>
+
+
+<!-- Section: Contact -->
+<section id="contact" class="section section-contact center scrollspy">
+  <div id="googlemap"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6 offset-m6">
+        <div class="card-panel z-depth-5">
+          <h4>Contact Us</h4>
+          <div class="input-field">
+            <input type="text" id="name" placeholder="Name">
+            <label for="name">Name</label>
+          </div>
+          <div class="input-field">
+            <input type="email" id="email" placeholder="Email">
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field">
+            <input type="text" id="phone" placeholder="Phone Number">
+            <label for="phone">Phone</label>
+          </div>
+          <div class="input-field">
+            <textarea class="materialize-textarea" id="message" placeholder="Message"></textarea>
+            <label for="message">Message</label>
+          </div>
+          <br>
+          <div class="back">
+             <div type="submit" value="Submit" class="button_base b05_3d_roll">
+              <div>Submit</div>
+             <div>Submit</div>
+           </di>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Footer -->
+ <footer class="page-footer grey">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m4">
+        <h5 class="white-text">About Us</h5>
+        <p class="grey-text text-lighten-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus iure maiores porro? Nam maiores possimus natus facere minus aut, sequi ipsum itaque nihil quis qui aspernatur assumenda. Iure eveniet facere, assumenda fuga eum officia. Distinctio a pariatur eligendi optio sint dignissimos? Saepe blanditiis labore tempora quis et deleniti dicta animi.</p>
+      </div>
+      <div class="col s12 m2">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li>
+            <a class="grey-text text-lighten-3" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="solutions.html">Artists</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="Exhibitions.html">Exhibitions</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="signup.html">Signup</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col s12 m2">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li>
+            <a class="grey-text text-lighten-3" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="solutions.html">Artists</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="Exhibitions.html">Exhibitions</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="signup.html">Signup</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col s12 m2">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li>
+            <a class="grey-text text-lighten-3" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="solutions.html">Artists</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="Exhibitions.html">Exhibitions</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="signup.html">Signup</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col s12 m2">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li>
+            <a class="grey-text text-lighten-3" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="solutions.html">Artists</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="Exhibitions.html">Exhibitions</a>
+          </li>
+          <li>
+            <a class="grey-text text-lighten-3" href="signup.html">Signup</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <div class="footer-copyright grey">
+   <p class="left">© 2020 Copyright Text</p>
+   <div class="transparent">
+      <ul class="center">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+      </ul>
+      </div>
+    <a href="https://www.instagram.com/" target="_blank" title="Instagram" class="social-item grey-text text-lighten-4 right"><i class="fab fa-instagram fa-3x" style="color:#fff"></i></a>
+    <a href="https://www.facebook.com/" target="_blank" title="facebook" class=" social-item grey-text text-lighten-4 right"><i class="fab fa-facebook-square fa-3x" style="color:#4e64b5"></i></a>
+    <a href="https://www.pinterest.com/" target="_blank" title="pinterest" class=" social-item grey-text text-lighten-4 right"><i class="fab fa-pinterest-square fa-3x" style="color: #d47373"></i></a>
+    <a href="https://www.twitter.com/" target="_blank" title="twitter" class=" social-item grey-text text-lighten-4 right"><i class="fab fa-twitter-square fa-3x" style="color:#97c5d6"></i></a>
+    </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="https://daniellaharel.com/raindrops/js/raindrops.js"></script>
+<script> jQuery('#waterdrop').raindrops({color:'#1c1f2f', canvasHeight:150, density: 0.1, frequency: 20});
+</script>
+</footer>
+
+
+<!-- Login Modal -->
+<div id="login-modal" class="modal">
+  <div class="modal-content">
+    <h4>Account Login</h4>
+    <p>Login to access your account dashboard</p>
+    <form>
+      <div class="input-field">
+        <input type="email" id="email">
+        <label for="email">Email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" id="password">
+        <label for="password">Password</label>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-action modal-close btn grey">
+      <i class="fa fa-sync"></i> Reset Password</a>
+    <a href="#!" class="modal-action modal-close btn teal">
+      <i class="fa fa-lock"></i> Login</a>
+  </div>
+</div>
+
+
+
+
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/js/materialize.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1rW3RAPUkO6Ejx_1-TFBv_OnEJeAMeyU"
+    async defer></script>
+
+    
+  
+  <script>
+
+    $(document).ready(function () {
+      $('.dropdown-button').dropdown({
+        constrainWidth: false,
+        hover: true,
+        belowOrigin: true,
+        alignment: 'left'
+      });
+      // JAVASCRIPT START HERE //
+      $('.button-collapse').sideNav();
+      // Init Side nav
+      $('.button-collapse').sideNav();
+      // Init Slider
+      $('.slider').slider({
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000
+      });
+      $(document).ready(function () {
+    $('.parallax').parallax();
+    $('.carousel.carousel-slider').carousel({ fullWidth: true });
+    $('.modal').modal(); 
+    // Open
+    $('.gallery-expand').galleryExpand('open');
+    // Close
+    $('.gallery-expand').galleryExpand('close');
+
+    $('.gallery-expand').galleryExpand({
+    responsiveThreshold: 0
+    });
+   // Only mobile style
+   $('.gallery-expand').galleryExpand({
+   responsiveThreshold: Infinity
+   });
+
+  // Autocomplete
+  
+  $('.autocomplete').autocomplete({
+        data: {
+          "Art": null,
+          "Photography": null,
+          "paintings": null,
+          "Gallery": null,
+          "artists": null,
+          "exhibitions": null,
+          "sculbtures": null,
+          "contact": null,
+        }
+      });
+      
+  // Init Scrollspy
+  $('.scrollspy').scrollSpy();
+});
+  // Scrollfire
+   const options = [
+        {
+          selector: '.row', offset: 50, callback: function (el) {
+            Materialize.fadeInImage($(el));
+          }
+        },
+
+        ];
+
+ Materialize.scrollFire(options);
+
+
+      const position = [52.369991, 4.884250];
+      const centerPosition = [52.369991, 4.884250];
+
+      function showGoogleMaps() {
+        // Map positions
+        const latLng = new google.maps.LatLng(position[0], position[1]);
+        const centerLatLng = new google.maps.LatLng(centerPosition[0], centerPosition[1]);
+
+        // Map options
+        const mapOptions = {
+          zoom: 12,
+          streetViewControl: false,
+          scaleControl: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          center: centerLatLng
+        }
+
+        // Create map
+        map = new google.maps.Map(document.getElementById('googlemap'), mapOptions);
+
+        // Show Marker
+        marker = new google.maps.Marker({
+          position: latLng,
+          map: map,
+          draggable: false,
+          animation: google.maps.Animation.DROP
+        });
+      }
+
+      // Maps event
+      google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+
+  
+    });
+
+  </script>
+
+</body>
+
+</html>
