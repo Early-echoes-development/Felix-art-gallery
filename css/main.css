@@ -6839,6 +6839,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   box-sizing: border-box; }
 
 body {
+  font-family: 'Abel', sans-serif;
   background-color: #e8eaf6; }
 
 .main-header {
@@ -6859,20 +6860,14 @@ body {
     margin: 0;
     padding-top: 30px; }
 
+.head-4 {
+  text-align: right; }
+
 .img-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 300px; }
-
-.card-content {
-  color: #ee6e73; }
-
-.page-footer {
-  background: #26a69a; }
-  .page-footer .footer-copyright {
-    background: #26a69a;
-    padding: 3rem; }
 
 .modal {
   color: #333; }
@@ -6892,6 +6887,13 @@ body {
   background: linear-ingradient to right , red, teal;
   border-radius: 10px; }
 
+.section-artists {
+  padding: 1rem; }
+  .section-artists li {
+    padding: 0.3rem;
+    box-sizing: border-box;
+    font-weight: bold; }
+
 .section-contact {
   position: relative; }
 
@@ -6907,21 +6909,9 @@ body {
   left: 0;
   z-index: 0; }
 
-.section-search input {
-  padding: 1px !important;
-  font-size: 18px !important;
-  width: 90% !important;
-  border: #f4f4f4 2px solid !important;
-  border-radius: 5px !important; }
-
-.autocomplete-content {
-  position: absolute;
-  width: 100%;
-  text-align: center; }
-
 .card {
   float: left;
-  border-radius: 8px;
+  border-radius: 0px;
   box-shadow: 0 2px 2px;
   overflow: hidden;
   position: relative;
@@ -7033,3 +7023,12 @@ body {
   padding-right: 6rem;
   margin-top: -10rem;
   font-size: 2rem; }
+
+.footer-copyright {
+  margin-bottom: -3rem; }
+  .footer-copyright a {
+    display: inline;
+    margin: 5px; }
+
+blockquote {
+  font-size: 1.3rem; }
