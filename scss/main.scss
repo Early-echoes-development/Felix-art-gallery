@@ -91,11 +91,10 @@ li {
 
 }
 
-
-
-
-
-
+// About // 
+blockquote {
+  font-size: 1.3rem;
+}
 
 
 // Map //
@@ -119,9 +118,7 @@ li {
 
 // End Map //
 
-
-
-
+// Collective //
   .card {
     float: left;
     border-radius: 0px;
@@ -140,21 +137,7 @@ li {
     }
   }
 
-
-
-  // Exhibtions //
-  .row-1,
-  .row-2,
-  .row-3,
-  .row-4,
-  .row-5,
-  .row-6,
-  .row-7,
-  .row-8  {
-    opacity: 0;
-  }
-  
-
+// Utlitlties //
 .button_base {
   margin: 0;
   border: 0;
@@ -254,19 +237,85 @@ li {
  
 }
 
+// Artist page //
 
-.footer-copyright  {
-   margin-bottom: -3rem;
-   a  {
-     display: inline;
-     margin: 5px;
-   
+
+  .artist-h1 {
+    margin-top: 3rem; 
+  }
+.quote {
+  margin-left: 3rem;
+}
+
+
+
+
+
+// Exhibtions //
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5,
+.row-6,
+.row-7,
+.row-8  {
+  opacity: 0;
+}
+  // Exhibition popup folder, (SLIDER) //
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .middle-indicator{
+     position:absolute;
+     top:50%;
+     }
+    .middle-indicator-text{
+     font-size: 4.2rem;
+    }
+    a.middle-indicator-text{
+      color:white !important;
+    }
+  .content-indicator{
+      width: 64px;
+      height: 64px;
+      background: none;
+      -moz-border-radius: 50px;
+      -webkit-border-radius: 50px;
+      border-radius: 50px; 
+    }
+      .indicators{
+        visibility: hidden;
+    }
+  // End of exhibition //
+
+
+
+
+
+
+
+
+  .footer-copyright  {
+    margin-bottom: -3rem;
+    a  {
+      display: inline;
+      margin: 5px;
     
-   }
-
-}
-
-// About // 
-blockquote {
-  font-size: 1.3rem;
-}
+     
+    }
+ 
+ }
+ 

@@ -6894,6 +6894,9 @@ body {
     box-sizing: border-box;
     font-weight: bold; }
 
+blockquote {
+  font-size: 1.3rem; }
+
 .section-contact {
   position: relative; }
 
@@ -6923,16 +6926,6 @@ body {
   .card:hover {
     top: -15px;
     box-shadow: 0 12px 16px; }
-
-.row-1,
-.row-2,
-.row-3,
-.row-4,
-.row-5,
-.row-6,
-.row-7,
-.row-8 {
-  opacity: 0; }
 
 .button_base {
   margin: 0;
@@ -7024,11 +7017,59 @@ body {
   margin-top: -10rem;
   font-size: 2rem; }
 
+.artist-h1 {
+  margin-top: 3rem; }
+
+.quote {
+  margin-left: 3rem; }
+
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5,
+.row-6,
+.row-7,
+.row-8 {
+  opacity: 0; }
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-osx-font-smoothing: grayscale; }
+
+.middle-indicator {
+  position: absolute;
+  top: 50%; }
+
+.middle-indicator-text {
+  font-size: 4.2rem; }
+
+a.middle-indicator-text {
+  color: white !important; }
+
+.content-indicator {
+  width: 64px;
+  height: 64px;
+  background: none;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; }
+
+.indicators {
+  visibility: hidden; }
+
 .footer-copyright {
   margin-bottom: -3rem; }
   .footer-copyright a {
     display: inline;
     margin: 5px; }
-
-blockquote {
-  font-size: 1.3rem; }

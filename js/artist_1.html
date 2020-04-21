@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-NL">
+
+<head>
+<!--- Fontawesome -->
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Gotu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <!-- Material Icons -->
+ 
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Felix Art Gallery</title>
+</head>
+<body id="home">
+  <!-- Header -->
+  <!-- RESPONSIVE WITH SIDE MENU -->
+  <nav class="teal lighten-2">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo left">Felix Art Gallery</a>
+        <a class="button-collapse" data-activates="mobile-nav" href="#">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a class="active-link" href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="artists.html">Artists</a>
+          </li>
+          <li>
+            <a href="exhibition.html">Exhibitions</a>
+          </li>
+          <li>
+            <a href="signup.html"> Sign up</a>
+          </li>
+          <!-- DROPDOWN TRIGGER -->
+          <li>
+            <a class="dropdown-button" data-activates="my-dropdown" href="#!">Dropdown
+              <i class="material-icons right">arrow_drop_down</i>
+            </a>
+          </li>
+          <!-- BUTTON LINK -->
+          
+          <li>
+            <a href="#login-modal" class="btn teal modal-trigger">Login</a>
+          </li>
+          <!-- ICON LINK -->
+        </ul>
+        <ul class="side-nav" id="mobile-nav">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#"> Artists</a>
+          </li>
+          <li>
+            <a href="#"> Exhibitions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- DROPDOWN MENU -->
+  <ul id="my-dropdown" class="dropdown-content">
+    <li>
+      <a href="#"> Paintings</a>
+    </li>
+    <li>
+      <a href="#"> Sculptures</a>
+    </li>
+    <li>
+      <a href="#"> Photography</a>
+    </li>
+  </ul>
+  <!-- Login Modal -->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+      <h4>Account Login</h4>
+      <p>Login to access your account dashboard</p>
+      <form>
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close btn grey">
+        <i class="fa fa-sync"></i> Reset Password</a>
+      <a href="#!" class="modal-action modal-close btn teal">
+        <i class="fa fa-lock"></i> Login</a>
+    </div>
+  </div>
+  
+  
+  
+  
+   <!--Import jQuery before materialize.js-->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript" src="/js/materialize.min.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1rW3RAPUkO6Ejx_1-TFBv_OnEJeAMeyU"
+     async defer></script> 
+   <script>
+ 
+     $(document).ready(function () {
+       $('.dropdown-button').dropdown({
+         constrainWidth: false,
+         hover: true,
+         belowOrigin: true,
+         alignment: 'left'
+       });
+      
+       $('.tabs').tabs();
+       // JAVASCRIPT START HERE //
+       // Init Side nav
+       $('.button-collapse').sideNav();
+       // Init Slider
+       $('.slider').slider({
+         indicators: false,
+         height: 500,
+         transition: 500,
+         interval: 6000
+       });
+       $(document).ready(function () {
+     $('.modal').modal(); 
+     // Open
+   
+ 
+ });
+     });
+ 
+   </script>
+ 
+ </body>
+ 
+ </html>
